@@ -36,5 +36,7 @@
   filter: drop-shadow(0px 0px 7px #bbb);
 }
 @media screen and (max-width: 1024px) {
-   .parent { margin-left: -60px }
+   .parent { margin-left: -90px }
+   .words { text-align: left; margin: 0px; font-size: 4vw; }
+   . 
 }
