@@ -1,26 +1,33 @@
-.header { 
-    padding-top: 10px
+.header {
+  padding-top: 10px
 }
+
 .parent {
   position: relative;
   top: 0;
   left: 0;
-  height:350px;
+  height: 350px;
   width: 960px;
 
   margin: 20 0 20 0;
 }
-.layers img { position: absolute;}
-.background { 
-  z-index: -1; 
+
+.layers img {
+  position: absolute;
 }
-.words { 
-    padding: 20px;
-    padding-bottom: 40px;
-    margin: 20px;
-    font-size: 20px;
-    text-align: center;
+
+.background {
+  z-index: -1;
 }
+
+.words {
+  padding: 20px;
+  padding-bottom: 40px;
+  margin: 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
 .shirt {
   top: 15px;
   height: 610px;
@@ -28,15 +35,82 @@
   z-index: 1;
   clip: rect(0px, 478px, 335px, 0px);
 }
-.logo {
-  top: 160px;
-  left: 60px;
+@media screen and (max-width: 1024px) {
+  .parent {
+    margin-left: -90px
+  }
+
+  .words {
+    text-align: left;
+    margin: 0px;
+    font-size: 4vw;
+  }
+}
+
+
+.logo-django {
   height: 170px;
   z-index: 3;
   filter: drop-shadow(0px 0px 7px #bbb);
+  font-family: 'Droid Sans', sans-serif;
+  position: relative;
+  left: 70px;
+  top: 100px; 
+
 }
-@media screen and (max-width: 1024px) {
-   .parent { margin-left: -90px }
-   .words { text-align: left; margin: 0px; font-size: 4vw; }
-   . 
+
+.logo-con {
+  height: 170px;
+  z-index: 3;
+  filter: drop-shadow(0px 0px 7px #bbb);
+  position: relative;
+  left: 115px;
+  top: 100px; 
 }
+
+.logo-year { 
+  position: relative;
+  left: 420px;
+  top: 220px;
+  font-size: 40px;
+  font-family: "PT Sans";
+  z-index: 3;
+}
+
+/* https://codepen.io/sosuke/pen/Pjoqqp */
+.logo-2013 { filter: invert(22%) sepia(25%) saturate(603%) hue-rotate(85deg) brightness(101%) contrast(81%) drop-shadow(0px 0px 7px #bbb);}
+.con-2013  { filter: invert(78%) sepia(51%) saturate(624%) hue-rotate(338deg) brightness(93%) contrast(90%) drop-shadow(0px 0px 7px #bbb)}
+.year-2013 { color: rgb(226,174,76)}
+
+.logo-2014 { /* #293055 */ filter: invert(19%) sepia(12%) saturate(2294%) hue-rotate(193deg) brightness(90%) contrast(95%)   drop-shadow(0px 0px 7px #bbb) }
+.con-2014  { /* #e3ce47 */ filter: invert(100%) sepia(31%) saturate(4488%) hue-rotate(335deg) brightness(94%) contrast(89%)  drop-shadow(0px 0px 7px #bbb)}
+.year-2014 { color: #e3ce47}
+
+.logo-2015 { /* #9ec659 */ filter: invert(93%) sepia(30%) saturate(922%) hue-rotate(22deg) brightness(86%) contrast(77%)     drop-shadow(0px 0px 7px #bbb)}
+.con-2015  { /* #ffffff */ filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(325deg) brightness(103%) contrast(101%) drop-shadow(0px 0px 7px #bbb)}
+.year-2015 { color: #ffffff }
+
+.logo-2016 { /* #5b163c */ filter: invert(11%) sepia(27%) saturate(5661%) hue-rotate(303deg) brightness(94%) contrast(94%)   drop-shadow(0px 0px 7px #bbb)}
+.con-2016  { /* #bd689d */ filter: invert(82%) sepia(18%) saturate(6878%) hue-rotate(284deg) brightness(79%) contrast(83%)   drop-shadow(0px 0px 7px #bbb)}
+.year-2016 { color: #bd689d}
+
+
+.logo-2017 { /* #ef878f */ filter: invert(57%) sepia(36%) saturate(3248%) hue-rotate(316deg) brightness(126%) contrast(87%)  drop-shadow(0px 0px 7px #bbb)}
+.con-2017  { /* #f6c2c9 */ filter: invert(80%) sepia(6%) saturate(1318%) hue-rotate(303deg) brightness(103%) contrast(93%)   drop-shadow(0px 0px 7px #bbb)}
+.year-2017 { color: #f6c2c9 }
+
+
+.logo-2018 { /* # */ filter:    drop-shadow(0px 0px 7px #bbb)}
+.con-2018  { /* # */ filter:    drop-shadow(0px 0px 7px #bbb)}
+.year-2018 { color: #ffffff}
+.missing {font-size: 28px; position: relative; top: 150px; left: 500px;}
+
+
+.logo-2019 { /* #ffffff */ filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(325deg) brightness(103%) contrast(101%) drop-shadow(0px 0px 7px #bbb)}
+.con-2019  { /* #4faf8a */ filter: invert(66%) sepia(7%) saturate(2437%) hue-rotate(105deg) brightness(91%) contrast(86%)    drop-shadow(0px 0px 7px #bbb)}
+.year-2019 { color: #4faf8a}
+
+
+.logo-2020 { /* #425487 */ filter: invert(32%) sepia(11%) saturate(2339%) hue-rotate(187deg) brightness(96%) contrast(91%)   drop-shadow(0px 0px 7px #bbb)}
+.con-2020  { /* #529284 */ filter: invert(58%) sepia(5%) saturate(2954%) hue-rotate(117deg) brightness(88%) contrast(87%)    drop-shadow(0px 0px 7px #bbb)}
+.year-2020 { color: #529284}
