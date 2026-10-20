@@ -114,3 +114,9 @@
 .logo-2020 { /* #425487 */ filter: invert(32%) sepia(11%) saturate(2339%) hue-rotate(187deg) brightness(96%) contrast(91%)   drop-shadow(0px 0px 7px #bbb)}
 .con-2020  { /* #529284 */ filter: invert(58%) sepia(5%) saturate(2954%) hue-rotate(117deg) brightness(88%) contrast(87%)    drop-shadow(0px 0px 7px #bbb)}
 .year-2020 { color: #529284}
+
+
+.logo-2023 { /* # */ filter:    drop-shadow(0px 0px 7px #bbb)}
+.con-2023  { /* #ffffff */ filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(325deg) brightness(103%) contrast(101%) drop-shadow(0px 0px 7px #bbb)}
+
+.year-2023 { color: rgb(107, 193,74)}
